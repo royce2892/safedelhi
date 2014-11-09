@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Safe Delhi</string>
+    <string name="action_settings">Settings</string>
+    <string name="fb_app_id">853693581355555</string>
+    <string name="save">Save</string>
+    
+    <!-- string for checklist activity -->
+    <string name="checklist">In the event of an accident there are several things to remember:
+\nMove to a safe location if you or your car is creating a safety hazard or if you\'re concerned with your safety.
+\n\t*Do not leave the scene of the accident.
+\n\t*Call the police and follow their instructions.
+\n\t*Call ambulance if there are any injuries.
+\n\nIn minor accidents, the police may instruct you to exchange information and then contact your insurance company.
+\n\t*Do not discuss who is at fault with other parties.
+\n\t*Do not disclose your policy details. You should only share your drivers license number.
+\n\t*Collect as much information as you can about the other drivers.</string>
+
+    
+    <string-array name="vehicle_array">
+        <item>4-Wheeler</item>
+        <item>2-Wheeler</item>
+    </string-array>
+     <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

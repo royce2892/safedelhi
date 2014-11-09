@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#aa0000"
+        android:gravity="center"
+        android:text="Blood Banks"
+        android:textSize="20sp" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/help_blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#00ff00"
+        android:gravity="center"
+        android:text="Eye Banks"
+        android:textSize="20sp" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/help_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
